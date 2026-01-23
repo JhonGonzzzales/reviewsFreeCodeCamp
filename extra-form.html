@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Zona de Recreo</legend>
+        <p>Dale play a la rola:</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+    </fieldset>
+    <header>
+        <h1>Te damos la bienvenida</h1>
+        <p>Por favor, llena este formulario para estar en contacto:</p>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Información personal:</legend>
+            <br>
+            <label for="name">Nombre completo:</label>
+            <input id="name" type="text" name="name" value="" placeholder="ej: Juan Ramirez Peña" size="30" required>
+            <br><br>
+            <label for="age">Edad (opcional):</label>
+            <input id="age" type="number" name="age" placeholder="16 - 100" min="16" max="100">
+            <br><br>
+            <label for="phone">Teléfono:</label>
+            <input id="phone" type="tel" name="phone" pattern="[0-9+]*" placeholder="ej: +591 66660000" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="ej: jramirez@email.com" required>
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Es la primera vez que llenas un formulario en internet?</legend>
+
+            
+            <label for="yes-option"><input id="yes-option" type="radio" name="fill-form">Si</label>
+            <input id="no-option" type="radio" name="fill-form">
+            <label for="no-option">No</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Cómo te enteraste de este formulario?</legend>
+
+            <input type="checkbox" id="ads" name="choice" value="ads">
+            <label for="ads">Anuncios</label>
+            <input type="checkbox" id="notice" name="choice" value="notice">
+            <label for="notice">Noticias</label>
+            <input type="checkbox" id="recommendation" name="choice" value="recommendation" checked>
+            <label for="recommendation">Recomendaciones</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Calificaciones:</legend>
+            <label for="service">Qué te pareció la interacción con este formulario?</label>
+            <select id="service" name="service">
+                <option value="bad">Malo</option>
+                <option value="regular">Regular</option>
+                <option value="good">Bueno</option>
+                <option value="very-good">Muy bueno</option>
+                <option value="excellent" selected>Excelente</option>
+            </select>
+        </fieldset>
+        <br>
+        <label for="comments">Comentarios adicionales:</label>
+        <br>
+        <textarea id="comments" name="comments" cols="83" rows="5"></textarea>
+        <br>
+        <p>Gracias por tu colaboración!</p>
+        <button>ENVIAR</button>
+    </form>
+</body>
+
+</html>

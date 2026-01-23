@@ -1,0 +1,53 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Encuesta</h1>
+    <p id="description">Por favor, llena la siguiente encuesta:</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Nombre completo:</label>
+      <input id="name" type="text" name="name" placeholder="ej: Don Fulano" required>
+      <br><br>
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" type="email" name="email" placeholder="ej: fulano@email.com" size="30" required>
+      <br><br>
+      <label id="number-label" for="number">Edad (opcional):</label>
+      <input id="number" type="number" name="number" placeholder="16 - 100" min="16" max="100">
+      <br><br>
+      <label for="dropdown">Qué te parece la interacción de nuestro formulario?</label>
+      <br><br>
+      <select id="dropdown">
+        <option value="bad">Malo</option>
+        <option value="regular">Regular</option>
+        <option value="good">Bueno</option>
+        <option value="very-good">Muy bueno</option>
+        <option value="excellent" selected>Excelente</option>
+      </select>
+      <br>
+        <p>Es la primera vez que llenas una encuesta en internet?</p>
+        <input id="yes-option" type="radio" name="option" value="yes">
+        <label for="yes-option">Si</label>
+        <input id="no-option" type="radio" name="option" value="no">
+        <label for="no-option">No</label>
+        <p>Cómo te enteraste de nuestra encuesta?</p>
+        <input id="social-media" type="checkbox" value="social-media">
+        <label for="social-media">Redes sociales</label>
+        <input id="recommentation" type="checkbox" value="recommendation">
+        <label for="recommendation">Recomendaciones</label>
+        <input id="notice" type="checkbox" value="notice">
+        <label for="notice">Noticias</label>
+        <p>Comentarios adicionales:</p>
+        <textarea id="comments" rows="5" cols="40"></textarea>
+        <br>
+        <button id="submit" type="submit">ENVIAR</button>
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
