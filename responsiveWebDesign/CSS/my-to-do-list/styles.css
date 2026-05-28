@@ -1,0 +1,61 @@
+*{
+  font-family:arial;
+}
+
+h1{
+  text-align:center;
+  color:white;
+}
+
+li{
+  margin-bottom:10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  outline: 2px solid orange;
+}
+
+a:visited {
+  color: purple;
+}
+
+.container{
+  background-color:grey;
+  padding:70px;
+  margin:20px;
+}
+
+.todo-list{
+  list-style:none;
+}
+
+.to-do-general{
+  background-color: white;
+  padding: 10px;
+  margin: 15px 10% 0% 0%;
+}
+
+.sub-item{
+  list-style: square;
+  line-height: 2;
+}
