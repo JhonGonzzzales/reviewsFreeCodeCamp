@@ -1,0 +1,52 @@
+body{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 90vw;
+  min-height: calc(100vh - 100px);
+
+  text-align: center;
+  font-family: arial;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  height: 3px;
+  background-color: black;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li{
+  text-align: left;
+}
+
+section {
+  vertical-align: top;
+  display: inline-block;
+  margin: 10px 1%;
+  width: 29%;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #666;
+  width: 100%;
+}
