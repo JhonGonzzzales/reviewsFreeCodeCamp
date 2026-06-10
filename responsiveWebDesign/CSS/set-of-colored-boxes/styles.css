@@ -1,0 +1,39 @@
+body{
+  background-color: #f4f4f4;
+  font-family: arial, sans-serif;
+  font-size:1.5rem;
+  text-align: center;
+}
+
+.color-grid{
+  background-color:whitesmoke;
+}
+
+.color-box{
+  border-radius: 10%;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  width: 20vh;
+  height: 20vh;
+}
+
+.color1{
+  background-color: #f0250f;
+}
+
+.color2{
+  background-color: rgb(100, 230, 225);
+}
+
+.color3{
+  background-color: green;
+}
+
+.color4{
+  background-color: hsl(248, 53%, 58%);
+}
+
+.color5{
+  background: radial-gradient(gray, black);
+}
