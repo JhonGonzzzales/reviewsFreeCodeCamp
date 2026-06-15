@@ -1,0 +1,50 @@
+body{
+  background-color: #FF6B35;
+}
+
+h2{
+  color: #0D1117;
+}
+
+.form-container{
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  font-family: Arial;
+}
+
+label{
+  margin: auto;
+  color: #2F4F4F;
+  font-weight: bold;
+}
+
+.message{
+  height: 50px;
+  border: 2px solid black;
+}
+
+input, textarea{
+  height: 20px;
+  width: 270px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+button{
+  background-color: #228B22;
+  color:white;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+}
+
+button:hover{
+  background-color:#008000;
+}
