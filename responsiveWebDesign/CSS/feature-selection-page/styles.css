@@ -1,0 +1,63 @@
+body {
+    min-height: 100vh;
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: white;
+    background: linear-gradient(#2C3E50, #4CA1AF);
+}
+
+label {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    border-color: white;
+    background-color: black;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    color: white;
+    font-weight: bold;
+}
+
+.feature-card-container {
+    margin: auto;
+    max-width: 700px;
+}
+
+.feature-card {
+    background: linear-gradient(90deg, #2C3E50);
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.feature-card:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.card-content {
+    display: inline-block;
+}
