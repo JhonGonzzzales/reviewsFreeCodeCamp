@@ -69,19 +69,21 @@ p{
   grid-area: small-article3;
 }
 
-.newspaper-layout{
-  display:grid;
-  grid-template-areas:
-    "title title title"
-    "feature-article feature-article cover-image"
-    "secondary-article secondary-article cover-image"
-    "small-article1 small-article2 small-article3";
-  gap: 15px;
-  background-color: #fff;
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  text-align: justify;
+.newspaper-layout {
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "feature-article feature-article cover-image"
+        "secondary-article secondary-article cover-image"
+        "small-article1 small-article2 small-article3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    gap: 15px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: justify;
 }
 
 .cover-image {
